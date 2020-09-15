@@ -8,7 +8,7 @@ Open Terminal
 
 Type the below commands
 
-$ cd Portfolio_Website_React JS
+$ cd Portfolio-Neumorphism-ReactJS
 
 $ npm install
 
