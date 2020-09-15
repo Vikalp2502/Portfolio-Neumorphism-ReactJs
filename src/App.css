@@ -343,11 +343,18 @@ mark{
 }
 .inner3{
   margin: 3px 15px;
+  background: rgba(245, 108, 109,1);
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
 }
 .con_out{
+  position: absolute;	
   width: 88%;
   top: 13%;
   left: 6%;
+  border-radius: 10px;
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
 .con_in{
   width: 98%;
@@ -430,8 +437,6 @@ mark{
   .sidebar
   {
     padding: 30px;
-    background: rgb(238,103,143);
-    background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
   }
   .back1{
     right: 5%;
@@ -463,6 +468,7 @@ mark{
     left: 5%;
     width: 84.5%;
     height: 100%;
+    margin-bottom: 50px;
   }
   h1{
     text-align: center;
@@ -510,6 +516,7 @@ mark{
   margin: 10px !important;
   }
   .con_out{
+    width: 88%;
     height: 20%;
   }
   .con_in{
@@ -526,6 +533,9 @@ mark{
   }
   .line2{
     margin: 1px 120px;
+  }
+  .inner2{
+    margin: 15px;
   }
   .port_out{
     width: 80%;
