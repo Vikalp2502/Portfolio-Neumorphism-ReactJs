@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Social from "../components/Social";
 import Map from "../img/map.png";
 
